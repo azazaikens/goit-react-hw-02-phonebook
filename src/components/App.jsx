@@ -67,7 +67,7 @@ export class App extends Component {
         <Filter onChange={this.handleFilterChange} filter={filter} />
         <ListContacts
           contacts={filterContacts}
-          handleDeleteContact={this.handleDeleteContact}
+          deleteContact={this.deleteContact}
         />
       </div>
     );
