@@ -20,7 +20,6 @@ export class App extends Component {
     if (contacts) {
       this.setState({contacts})
     }
-    console.log(contacts);
   }
 
   componentDidUpdate() {
